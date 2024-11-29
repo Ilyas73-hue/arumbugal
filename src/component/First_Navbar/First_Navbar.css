@@ -1,0 +1,125 @@
+/* import google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* import main things */
+
+:root{
+    --primary-color: #09CC7F;
+    --color: #FFFFFF;
+    --font: "Outfit", sans-serif;
+}
+
+#first_navbar{
+    background-color: var(--primary-color);
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    height: 6vh;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+#first_navbar_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Part 1 */
+
+#first-navbar-1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#first-navbar-1-1{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 12px;
+}
+
+#first-navbar-1-1-1-phone{
+    color: var(--color);
+   font-size: 12px;
+   margin-top: 15px;
+}
+
+
+#first-navbar-1-1-2-p{
+    margin-top: 13px;
+  color: var(--color);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: var(--font);
+}
+
+#first-navbar-1-2{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#first-navbar-1-2-1-email{
+    color: var(--color);
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+#first-navbar-1-2-2-p{
+    margin-top: 11px;
+    color: var(--color);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font);
+}
+
+/* Part 2 */
+
+#first-navbar-2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#first-navbar-2-1-p{
+  color: var(--color);
+  font-family: var(--font);
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+#first-navbar-2-2-facebook{
+    color: var(--color);
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+#first-navbar-2-2-twitter{
+    color: var(--color);
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+#first-navbar-2-2-instagram{
+    color: var(--color);
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+#first-navbar-2-2-linkedin{
+    color: var(--color);
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+
+@media(max-width: 767px){
+    #first_navbar{
+     display: none;
+    }
+}
