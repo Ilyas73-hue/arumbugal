@@ -8,6 +8,8 @@ import home_about_logo_2 from "../../arumbugal_assets/Home/home_about_logo2.png"
 import home_about_logo_3 from "../../arumbugal_assets/Home/home_about_logo_3.png";
 import home_about_logo_4 from "../../arumbugal_assets/Home/home_about_logo_4.png";
 import home_what_we_do_card_img_1 from "../../arumbugal_assets/Home/home_what_we_do_card_img_1.png";
+import home_what_we_do_card_img_2 from "../../arumbugal_assets/Home/home_what_we_do_card_img_2.png";
+import home_what_we_do_card_img_3 from "../../arumbugal_assets/Home/home_what_we_do_card_img_3.png";
 import home_what_we_do_card_img_4 from "../../arumbugal_assets/Home/home_what_we_do_card_img_4.png";
 import home_what_we_do_card_img_5 from "../../arumbugal_assets/Home/home_what_we_do_card_img_5.png";
 import home_what_we_do_card_img_6 from "../../arumbugal_assets/Home/home_what_we_do_card_img_6.png";
@@ -17,6 +19,8 @@ import home_section_5_img_1 from "../../arumbugal_assets/Home/home_section_5_img
 import home_section_5_img_2 from "../../arumbugal_assets/Home/home_section_5_img_2.png";
 import home_section_6 from "../../arumbugal_assets/Home/home_section_6.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaArrowRight } from "react-icons/fa";
+
 
 function Home() {
 
@@ -29,7 +33,47 @@ function Home() {
     setSelected(i);
   };
 
-
+const Dropdata = [{
+  id: 1,
+  name: "World Bank IDM Award (2004)",
+  description: "In New Delhi for the development of low-cost sanitary napkins benefiting impoverished rural women."
+}, {
+  id: 2,
+  name: "UNAIDS Civil Society Award (2006)",
+  description: "In New Delhi for outstanding community care and support services provided to individuals living with HIV/AIDS in Chennai."
+}, {
+  id: 3,
+  name: "International Achievers Award for Social Service (2010)",
+  description: "Presented by the Indian Achievers Forum in New Delhi."
+}, {
+  id: 4,
+  name: "Dr. Gurusamy Mudaliar Award (2014)",
+  description: "For exceptional contributions to environmental conservation and management, conferred by the Department of Environment and Forests, Government of Tamil Nadu."
+}, {
+  id: 5,
+  name: "Social Responsibility Award (2015)",
+  description: "Presented by the Cancer Prevention Center, Tirunelveli."
+}, {
+  id: 6,
+  name: "Independence Day NGO Award (2020)",
+  description: "For outstanding contributions to COVID-19 prevention activities, recognized by the district administration in Tirunelveli District."
+}, {
+  id: 7,
+  name: "NABARD Award (2021)",
+  description: "Received for four consecutive years, recognizing support for 17 lakh SHG women beneficiaries."
+}, {
+  id: 8,
+  name: "Best NGO Award for Micro insurance (2021 and 2022)",
+  description: "Conferred by LIC of India, Tirunelveli."
+}, {
+  id: 9,
+  name: "Best NGO Award (2024)",
+  description: "Presented by the Rotary Club Tirunelveli, Porunai."
+}, {
+  id: 10,
+  name: "Best CSR Partner Award (2024)",
+  description: "Conferred by Bosch Ltd., Gangaikondan."
+}]
 
   return (
     <div id="home">
@@ -200,8 +244,8 @@ function Home() {
               <div id="home-section-4-1-4-1">
                 <img
                   id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_4}
-                  alt={home_what_we_do_card_img_4}
+                  src={home_what_we_do_card_img_2}
+                  alt={home_what_we_do_card_img_2}
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Health <span id="home-section-4-1-4-1-p-2">care</span>{" "}
@@ -211,8 +255,8 @@ function Home() {
               <div id="home-section-4-1-4-1">
                 <img
                   id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_4}
-                  alt={home_what_we_do_card_img_4}
+                  src={home_what_we_do_card_img_3}
+                  alt={home_what_we_do_card_img_3}
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Skill <span id="home-section-4-1-4-1-p-2">development</span>
@@ -314,18 +358,69 @@ function Home() {
           <div id="home-section-6-1-2">
             <h6 id="home-section-6-1-2-h6-1">Awards</h6>
           <div id="home-section-6-1-2-1">
-            <div id="home-section-6-1-2-1-1">
-               <p id="home-section-6-1-2-1-1-p-1">World Bank IDM Award (2004)</p>
+
+            
+              {
+                Dropdata.map((item, i) => (
+                   <div id="home-section-6-1-2-1-flex">
+                 <div id="home-section-6-1-2-1-1" onClick={() => toggle(i)}>
+               <p id="home-section-6-1-2-1-1-p-1">{item.name}</p>
                <div id="home-section-6-1-2-1-1-1">
                <MdKeyboardArrowRight id="home-section-6-1-2-1-1-1-arrow"  />
                </div>
-            </div>  
+            </div> 
+
             <div id="home-section-6-1-2-1-2">
-            <p id="home-section-6-1-2-1-2-p-1">Lorem Lorem LoremLoremLoremLoremLoremLorem Lorem Lorem Lorem </p>
-            </div>  
+            <p id={ selected === i ? "home-section-6-1-2-1-2-p-1" : "home-section-6-1-2-1-2-unclick" }>{item.description}</p>
+            </div>
+                  </div>
+                ))
+              }
+          
             </div>  
             </div>
          </div>
+      </section>
+
+      {/* Home Section 7 */}
+      <section id="home-section-7">
+        <div className="container" id="home-section-7-1">
+             <div id="home-section-7-1-1">
+               <h6 id="home-section-7-1-1-h6-1">Activities</h6>
+             </div>
+             <div id="home-section-7-1-2">
+
+             </div>
+             <div id="home-section-7-1-3">
+                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one who needs more helping!</p>
+             </div>
+             <div id="home-section-7-1-4">
+                  <div id="home-section-7-1-4-card">
+                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_1} alt={home_what_we_do_card_img_1} />
+                     <p id="home-section-7-1-4-card-p">Women’s Empowerment and Financial Independence</p>
+                     <p id="home-section-7-1-4-card-p-1">Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,</p>
+                    <div id="home-section-7-1-4-card-arrow">
+                    <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
+                    </div>
+                  </div>
+                  <div id="home-section-7-1-4-card">
+                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_2} alt={home_what_we_do_card_img_2} />
+                     <p id="home-section-7-1-4-card-p">Health Care Activities</p>
+                     <p id="home-section-7-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
+                    <div id="home-section-7-1-4-card-arrow">
+                    <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
+                    </div>
+                  </div>
+                  <div id="home-section-7-1-4-card">
+                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
+                     <p id="home-section-7-1-4-card-p">Life Insurance Awareness</p>
+                     <p id="home-section-7-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
+                    <div id="home-section-7-1-4-card-arrow">
+                    <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
+                    </div>
+                  </div>
+             </div>
+        </div>
       </section>
 
       </div>
