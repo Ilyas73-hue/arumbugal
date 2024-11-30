@@ -307,8 +307,8 @@ const Dropdata = [{
               id="home-section-4-1-4-1">
                 <img
                   id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_3}
-                  alt={home_what_we_do_card_img_3}
+                  src={home_what_we_do_card_img_1}
+                  alt={home_what_we_do_card_img_1}
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Women <span id="home-section-4-1-4-1-p-2">empowerment</span>
