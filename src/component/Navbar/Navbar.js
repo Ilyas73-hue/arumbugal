@@ -18,19 +18,19 @@ function Navbar() {
             <a class="nav-link" id="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="/">About Us</a>
+            <a class="nav-link" id="nav-link" href="/about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="/">What we do</a>
+            <a class="nav-link" id="nav-link" href="/what_we_do">What we do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="/">Activities</a>
+            <a class="nav-link" id="nav-link" href="/activities">Activities</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="/">Gallery</a>
+            <a class="nav-link" id="nav-link" href="/gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="nav-link" href="/">Contact us</a>
+            <a class="nav-link" id="nav-link" href="/contact">Contact us</a>
           </li>
         </ul>
         <div className='d-flex' id="d-flex">
