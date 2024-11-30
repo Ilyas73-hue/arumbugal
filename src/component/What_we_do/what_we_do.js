@@ -85,8 +85,8 @@ function What_we_do() {
               id="what_we_do_section-2-1-4-1">
                 <img
                   id="what_we_do_section-2-1-4-1-img"
-                  src="https://res.cloudinary.com/dp9hemnhz/image/upload/v1732974268/arumbugal/cvy5a2zrlsm1mjdmgsau.png"
-                  alt="https://res.cloudinary.com/dp9hemnhz/image/upload/v1732974268/arumbugal/cvy5a2zrlsm1mjdmgsau.png"
+                  src={home_what_we_do_card_img_3}
+                  alt={home_what_we_do_card_img_3}
                 />
                 <p id="what_we_do_section-2-1-4-1-p-1">
                   Women <span id="what_we_do_section-2-1-4-1-p-2">empowerment</span>
