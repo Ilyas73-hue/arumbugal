@@ -225,7 +225,7 @@ const Dropdata = [{
             <div id="home-section-4-1-2"></div>
             <div id="home-section-4-1-3">
               <p id="home-section-4-1-3-p-1">
-                Help today because tomorrow you may be the one who needs more
+                Help today because tomorrow you may be the one whoneeds more
                 helping!
               </p>
             </div>
@@ -392,32 +392,50 @@ const Dropdata = [{
 
              </div>
              <div id="home-section-7-1-3">
-                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one who needs more helping!</p>
+                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one whoneeds more helping!</p>
              </div>
              <div id="home-section-7-1-4">
                   <div id="home-section-7-1-4-card">
-                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_1} alt={home_what_we_do_card_img_1} />
-                     <p id="home-section-7-1-4-card-p">Women’s Empowerment and Financial Independence</p>
-                     <p id="home-section-7-1-4-card-p-1">Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,</p>
+                    <div id="home-section-7-1-4-card-content-1">
+                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_1} alt={home_what_we_do_card_img_1} />
+                    </div>
+                    <div id="home-section-7-1-4-card-content-2">
+                    <p id="home-section-7-1-4-card-p">Women’s Empowerment and Financial Independence</p>
+                    <p id="home-section-7-1-4-card-p-1">Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,</p>
+                    </div> 
+                    <div id="home-section-7-1-4-card-content-3">
                     <div id="home-section-7-1-4-card-arrow">
                     <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
                     </div>
+                    </div> 
                   </div>
                   <div id="home-section-7-1-4-card">
-                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_2} alt={home_what_we_do_card_img_2} />
-                     <p id="home-section-7-1-4-card-p">Health Care Activities</p>
-                     <p id="home-section-7-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
+                    <div id="home-section-7-1-4-card-content-1">
+                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_2} alt={home_what_we_do_card_img_2} />
+                    </div>
+                    <div id="home-section-7-1-4-card-content-2">
+                    <p id="home-section-7-1-4-card-p">Health Care Activities</p>
+                    <p id="home-section-7-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
+                    </div> 
+                    <div id="home-section-7-1-4-card-content-3">
                     <div id="home-section-7-1-4-card-arrow">
                     <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
                     </div>
+                    </div> 
                   </div>
                   <div id="home-section-7-1-4-card">
-                     <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
-                     <p id="home-section-7-1-4-card-p">Life Insurance Awareness</p>
-                     <p id="home-section-7-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
+                    <div id="home-section-7-1-4-card-content-1">
+                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
+                    </div>
+                    <div id="home-section-7-1-4-card-content-2">
+                    <p id="home-section-7-1-4-card-p">Life Insurance Awareness</p>
+                    <p id="home-section-7-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
+                    </div> 
+                    <div id="home-section-7-1-4-card-content-3">
                     <div id="home-section-7-1-4-card-arrow">
                     <FaArrowRight id="home-section-7-1-4-card-arrow-icon"  />
                     </div>
+                    </div> 
                   </div>
              </div>
         </div>
