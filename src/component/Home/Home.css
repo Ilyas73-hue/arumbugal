@@ -5,8 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Yeseva+One&display=swap");
 /* import main things */
 
+/* #09cc7f */
+
 :root {
-  --primary-color: #09cc7f;
+  --primary-color: #2E843C;
   --color: #ffffff;
   --font: "Outfit", sans-serif;
   --font1: "Mulish", sans-serif;
