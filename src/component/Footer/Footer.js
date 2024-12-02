@@ -56,27 +56,27 @@ function Footer() {
             <div id="footer-section-2-div-2">
               <ul id="footer-section-2-div-2-ul">
                 <li id="footer-section-2-div-2-li">
-                  <a id="footer-section-2-div-2-li-a" href="">
+                  <a id="footer-section-2-div-2-li-a" href="/">
                     Home
                   </a>
                 </li>
                 <li id="footer-section-2-div-2-li">
-                  <a id="footer-section-2-div-2-li-a" href="">
+                  <a id="footer-section-2-div-2-li-a" href="/about">
                     About
                   </a>
                 </li>
                 <li id="footer-section-2-div-2-li">
-                  <a id="footer-section-2-div-2-li-a" href="">
+                  <a id="footer-section-2-div-2-li-a" href="/what_we_do">
                     What we do
                   </a>
                 </li>
                 <li id="footer-section-2-div-2-li">
-                  <a id="footer-section-2-div-2-li-a" href="">
+                  <a id="footer-section-2-div-2-li-a" href="/gallery">
                     Gallery
                   </a>
                 </li>
                 <li id="footer-section-2-div-2-li">
-                  <a id="footer-section-2-div-2-li-a" href="">
+                  <a id="footer-section-2-div-2-li-a" href="/contact">
                     Contact
                   </a>
                 </li>
