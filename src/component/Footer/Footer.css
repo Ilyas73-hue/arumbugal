@@ -393,3 +393,16 @@ color: var(--color);
     text-decoration: none;
     color: var(--color);
 }
+
+@media(max-width: 426px){
+  #footer-section-2{
+    width: 100%;
+  }
+  #footer-section-3{
+    width: 100%;
+  }
+  #footer-section-4{
+    width: 100%;
+  margin-left: 40px;
+  }
+}
