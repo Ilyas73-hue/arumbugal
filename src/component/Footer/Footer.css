@@ -338,6 +338,8 @@
     }
 }
 
+
+
 @media(max-width: 376px){
     #footer-section-1-div-2{
         width: 300px;
@@ -403,6 +405,21 @@ color: var(--color);
   }
   #footer-section-4{
     width: 100%;
-  margin-left: 40px;
+  }
+
+  #footer-section-4-div-1-p-1{
+   margin-left: 30px;
+  }
+
+  #footer-section-4-div-2-1{
+  margin-left: 30px;
+  }
+
+  #footer-section-4-div-2-2{
+    margin-left: 30px;
+  }
+
+  #footer-section-4-div-2-3{
+    margin-left: 30px;
   }
 }

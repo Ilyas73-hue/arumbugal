@@ -266,6 +266,7 @@ const Dropdata = [{
         </section>
 
            {/* Section 8 */}
+
         <section id="home-section-8">
            <div className='container' id="home-section-8-div-1">
              <div id="home-section-8-div-1-1">
@@ -550,6 +551,8 @@ const Dropdata = [{
       </section>
 
       {/* Home Section 7 */}
+
+
       <section id="home-section-7">
         <div className="container" id="home-section-7-1">
              <motion.div
