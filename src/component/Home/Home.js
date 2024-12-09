@@ -23,6 +23,7 @@ import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeBigIn, fadeSmallIn } from "./../../variants";
 import working_area_img from "../../arumbugal_assets/Home/working_area_img.png";
+import organogram from "../../arumbugal_assets/Home/Organogram.png";
 
 function Home() {
 
@@ -283,19 +284,19 @@ const Dropdata = [{
 
         {/* Section 9 */}
 
-        {/* <section id="home-section-9">
+        <section id="home-section-9">
            <div className='container' id="home-section-9-div-1">
              <div id="home-section-9-div-1-1">
-              <p id="home-section-9-div-1-1-p-1">Our Working Areas</p>
+              <p id="home-section-9-div-1-1-p-1">Organogram</p>
               <div id="home-section-9-div-1-1-line">
 
               </div>
              </div>
              <div id="home-section-9-div-1-2">
-                  <img id="home-section-9-div-1-2-img-1" src={working_area_img} alt={working_area_img} />
+                  <img id="home-section-9-div-1-2-img-1" src={organogram} alt={organogram} />
              </div>
            </div>
-        </section> */}
+        </section>
 
 
         {/* Section 4 */}
