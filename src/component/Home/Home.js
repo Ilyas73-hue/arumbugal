@@ -121,10 +121,6 @@ const Dropdata = [{
                   <h6 id="carousel-content-1-h6-1">
                   In every bloom, a story of progress
                   </h6>
-                  {/* <p id="carousel-content-1-p-1">
-                    Wellness for All - Learn about our healthdevelopment
-                    initiatives
-                  </p> */}
                   <button id="carousel-button">Donate</button>
                 </motion.div>
               </div>
