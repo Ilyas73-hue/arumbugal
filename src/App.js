@@ -9,10 +9,15 @@ import What_we_do from './component/What_we_do/what_we_do';
 import Activities from './component/Activities/Activities';
 import gallery from './component/gallery/gallery';
 import Contact from './component/Contact/Contact';
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Arumbugal</title>
+            </Helmet>
       <Router>
         <First_Navbar />
         <Navbar />
