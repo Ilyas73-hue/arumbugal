@@ -226,6 +226,8 @@
   }
   
   #activities-section-3-1-2-1-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 6px;
       width: 500px;
       height: 4vh;
@@ -309,6 +311,8 @@
       width: 400px;
       padding: 10px;
       height: 5vh;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   
     #activities-section-3-1-2-1-2{
@@ -332,6 +336,8 @@
       width: 300px;
       padding: 10px;
       height: 5vh;
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
   
     #activities-section-3-1-2-1-2{

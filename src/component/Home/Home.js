@@ -22,6 +22,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeBigIn, fadeSmallIn } from "./../../variants";
+import working_area_img from "../../arumbugal_assets/Home/working_area_img.png";
 
 function Home() {
 
@@ -118,12 +119,12 @@ const Dropdata = [{
                 viewport={{ once: false, amount: 0.7 }}
                 id="carousel-content-1">
                   <h6 id="carousel-content-1-h6-1">
-                    Well-being Redefined: Holistic Health Solutions
+                  In every bloom, a story of progress
                   </h6>
-                  <p id="carousel-content-1-p-1">
+                  {/* <p id="carousel-content-1-p-1">
                     Wellness for All - Learn about our healthdevelopment
                     initiatives
-                  </p>
+                  </p> */}
                   <button id="carousel-button">Donate</button>
                 </motion.div>
               </div>
@@ -267,6 +268,38 @@ const Dropdata = [{
             <button id="home-section-3-1-button">Donate</button>
           </motion.div>
         </section>
+
+           {/* Section 8 */}
+        <section id="home-section-8">
+           <div className='container' id="home-section-8-div-1">
+             <div id="home-section-8-div-1-1">
+              <p id="home-section-8-div-1-1-p-1">Our Working Areas</p>
+              <div id="home-section-8-div-1-1-line">
+
+              </div>
+             </div>
+             <div id="home-section-8-div-1-2">
+                  <img id="home-section-8-div-1-2-img-1" src={working_area_img} alt={working_area_img} />
+             </div>
+           </div>
+        </section>
+
+        {/* Section 9 */}
+
+        {/* <section id="home-section-9">
+           <div className='container' id="home-section-9-div-1">
+             <div id="home-section-9-div-1-1">
+              <p id="home-section-9-div-1-1-p-1">Our Working Areas</p>
+              <div id="home-section-9-div-1-1-line">
+
+              </div>
+             </div>
+             <div id="home-section-9-div-1-2">
+                  <img id="home-section-9-div-1-2-img-1" src={working_area_img} alt={working_area_img} />
+             </div>
+           </div>
+        </section> */}
+
 
         {/* Section 4 */}
 
@@ -468,7 +501,7 @@ const Dropdata = [{
                  viewport={{ once: false, amount: 0.7 }}
                 id="home-section-5-1-2-1">
                     <h6 id="home-section-5-1-2-1-h6-1">Our Mission</h6>
-                    <p id="home-section-5-1-2-1-p-1">To create an inclusive and empowered society rooted in social justice and sustainable environmental practices, achieved through a profound commitment to nature.</p>
+                    <p id="home-section-5-1-2-1-p-1">To mobilize and organize marginalized communities by generating awareness, capacity building and facilitating access to resources.</p>
                     <button id="home-section-5-1-2-1-button">Read More</button>
                 </motion.div>
               </div>

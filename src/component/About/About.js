@@ -6,6 +6,10 @@ import home_about_logo_3 from "../../arumbugal_assets/Home/home_about_logo_3.png
 import home_about_logo_4 from "../../arumbugal_assets/Home/home_about_logo_4.png";
 import { motion } from "framer-motion";
 import { fadeBigIn, fadeSmallIn } from "./../../variants";
+import future_plan_card_1 from "../../arumbugal_assets/Home/future_card_logo_1.png";
+import future_plan_card_2 from "../../arumbugal_assets/Home/future_card_logo_2.png";
+import future_plan_card_3 from "../../arumbugal_assets/Home/future_card_logo_3.png";
+import future_plan_card_4 from "../../arumbugal_assets/Home/future_card_logo_4.png";
 
 function About() {
 
@@ -18,6 +22,28 @@ function About() {
     .matchMedia("(max-width: 769px)")
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
+
+  const future_data =[{
+    id: 1,
+    name: "Online Marketing Forum",
+    description: "Establish an online platform to support women entrepreneurs in marketing their products and services.",
+    img: `${future_plan_card_1}`
+  }, {
+    id: 2,
+    name: "Skill Development Center",
+    description: "Set up a dedicated center to provide advanced skill development training for women.",
+    img: `${future_plan_card_2}`
+  }, {
+    id: 3,
+    name: "Multi-Faceted Training Center",
+    description: "Develop a training center focusing on community development and performing arts.",
+    img: `${future_plan_card_3}`
+  }, {
+    id: 4,
+    name: "Life Skill Education Center",
+    description: "Create a center to offer life skills education for children and adolescents, fostering their personal and professional growth.",
+    img: `${future_plan_card_4}`
+  }]
 
   return (
     <div id="about">
@@ -191,16 +217,28 @@ className="container" id="about-section-3-1">
         id="about-section-4-div-1-1-line"></motion.div>
       </div>
       <div id="about-section-4-div-1-2">
-        <motion.div
-         variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-         initial="hidden"
-         whileInView={'show'}
-         viewport={{ once: false, amount: 0.7 }}
-        id="about-section-4-div-1-2-1">
-        <p id="about-section-4-div-1-2-1-p-1">Online Marketing Forum</p>
-        <p id="about-section-4-div-1-2-1-p-2">Establish an online platform to support women entrepreneurs in marketing their products and services.</p>
-        </motion.div>
-        <motion.div
+        {
+          future_data.map((item) => (
+            <motion.div
+            variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.7 }}
+           id="about-section-4-div-1-2-1">
+             <div id="about-section-4-div-1-2-1-1">
+              <img id="about-section-4-div-1-2-1-1-img" src={item.img} alt={item.img} />
+             </div>
+             <div id="about-section-4-div-1-2-1-2">
+             <p id="about-section-4-div-1-2-1-p-1">{item.name}</p>
+             <p id="about-section-4-div-1-2-1-p-2">{item.description}</p>
+             </div>
+   
+           </motion.div>
+          ))
+        }
+      
+
+        {/* <motion.div
          variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
          initial="hidden"
          whileInView={'show'}
@@ -226,7 +264,7 @@ className="container" id="about-section-3-1">
         id="about-section-4-div-1-2-1">
         <p id="about-section-4-div-1-2-1-p-1">Life Skill Education Center</p>
         <p id="about-section-4-div-1-2-1-p-2">Create a center to offer life skills education for children and adolescents, fostering their personal and professional growth.</p>
-        </motion.div>
+        </motion.div> */}
       </div>
      </div>
 </section>

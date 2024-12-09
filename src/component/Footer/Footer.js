@@ -150,8 +150,8 @@ function Footer() {
                 </div>
                 <div id="footer-section-4-div-2-1-2">
                   <p id="footer-section-4-div-2-1-2-p-1">
-                    Arumbugal Trust  9/410, Archimadam,  Thiruchendur Main
-                    Road,  Palayamkotai, Tirunelveli, 627011.
+                    Arumbugal Trust  9/410, Aachimadam,  Thiruchendur Main
+                    Road,  Palayamkottai, Tirunelveli, 627011.
                   </p>
                 </div>
               </div>

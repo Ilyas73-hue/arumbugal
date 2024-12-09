@@ -266,7 +266,7 @@ function What_we_do() {
                   viewport={{ once: false, amount: 0.7 }}
                 id="what_we_do_section-4-1-2-1">
                     <h6 id="what_we_do_section-4-1-2-1-h6-1">Our Mission</h6>
-                    <p id="what_we_do_section-4-1-2-1-p-1">To create an inclusive and empowered society rooted in social justice and sustainable environmental practices, achieved through a profound commitment to nature.</p>
+                    <p id="what_we_do_section-4-1-2-1-p-1">To mobilize and organize marginalized communities by generating awareness, capacity building and facilitating access to resources.</p>
                     <button id="what_we_do_section-4-1-2-1-button">Read More</button>
                 </motion.div>
               </div>
