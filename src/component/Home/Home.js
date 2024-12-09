@@ -270,15 +270,25 @@ const Dropdata = [{
 
         <section id="home-section-8">
            <div className='container' id="home-section-8-div-1">
-             <div id="home-section-8-div-1-1">
+             <motion.div
+              variants={matches ? fadeSmallIn("down") :fadeBigIn("down")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+             id="home-section-8-div-1-1">
               <p id="home-section-8-div-1-1-p-1">Our Working Areas</p>
               <div id="home-section-8-div-1-1-line">
 
               </div>
-             </div>
-             <div id="home-section-8-div-1-2">
+             </motion.div>
+             <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+             id="home-section-8-div-1-2">
                   <img id="home-section-8-div-1-2-img-1" src={working_area_img} alt={working_area_img} />
-             </div>
+             </motion.div>
            </div>
         </section>
 
@@ -286,15 +296,25 @@ const Dropdata = [{
 
         <section id="home-section-9">
            <div className='container' id="home-section-9-div-1">
-             <div id="home-section-9-div-1-1">
+             <motion.div
+              variants={matches ? fadeSmallIn("down") :fadeBigIn("down")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+             id="home-section-9-div-1-1">
               <p id="home-section-9-div-1-1-p-1">Organogram</p>
               <div id="home-section-9-div-1-1-line">
 
               </div>
-             </div>
-             <div id="home-section-9-div-1-2">
+             </motion.div>
+             <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+             id="home-section-9-div-1-2">
                   <img id="home-section-9-div-1-2-img-1" src={organogram} alt={organogram} />
-             </div>
+             </motion.div>
            </div>
         </section>
 
