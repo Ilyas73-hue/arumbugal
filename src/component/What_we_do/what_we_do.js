@@ -146,6 +146,22 @@ function What_we_do() {
               id="what_we_do_section-2-1-4-1">
                 <img
                   id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_7}
+                  alt={home_what_we_do_card_img_7}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
+                  activity
+                </p>
+              </motion.div>
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
                   src={home_what_we_do_card_img_5}
                   alt={home_what_we_do_card_img_5}
                 />
@@ -168,22 +184,7 @@ function What_we_do() {
                   Sugam <span id="what_we_do_section-2-1-4-1-p-2">Canteen</span>
                 </p>
               </motion.div>
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_7}
-                  alt={home_what_we_do_card_img_7}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
-                  activity
-                </p>
-              </motion.div>
+  
               <motion.div
               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
               initial="hidden"

@@ -1,11 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import "./Activities.css";
-import home_what_we_do_card_img_1 from "../../arumbugal_assets/Home/home_what_we_do_card_img_1.png";
-import home_what_we_do_card_img_3 from "../../arumbugal_assets/Home/home_what_we_do_card_img_3.png";
-import home_what_we_do_card_img_4 from "../../arumbugal_assets/Home/home_what_we_do_card_img_4.png";
-import home_what_we_do_card_img_5 from "../../arumbugal_assets/Home/home_what_we_do_card_img_5.png";
-import home_what_we_do_card_img_7 from "../../arumbugal_assets/Home/home_what_we_do_card_img_7.png";
-import home_what_we_do_card_img_8 from "../../arumbugal_assets/Home/home_what_we_do_card_img_8.png";
+import activities_card_img_1 from "../../arumbugal_assets/Home/home_what_we_do_card_img_1.png";
+import activities_card_img_2 from "../../arumbugal_assets/Home/home_what_we_do_card_img_3.png";
+import activities_card_img_3 from "../../arumbugal_assets/Home/home_what_we_do_card_img_4.png";
+import activities_card_img_4 from "../../arumbugal_assets/Home/home_what_we_do_card_img_5.png";
+import activities_card_img_5 from "../../arumbugal_assets/Home/home_what_we_do_card_img_7.png";
+import activities_card_img_6 from "../../arumbugal_assets/Home/home_what_we_do_card_img_8.png";
+import activities_card_img_7 from "../../arumbugal_assets/Home/activities_card_img_7.png";
+import activities_card_img_8 from "../../arumbugal_assets/Home/activities_card_img_8.png";
+import activities_card_img_9 from "../../arumbugal_assets/Home/activities_card_img_9.png";
 import home_section_6 from "../../arumbugal_assets/Home/home_section_6.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
@@ -77,6 +80,53 @@ function Activities() {
     id: 10,
     name: "Best CSR Partner Award (2024)",
     description: "Conferred by Bosch Ltd., Gangaikondan."
+  }];
+
+  const activities_data = [{
+    id: 1,
+    name: "Women’s Empowerment and Financial Independence",
+    description: "Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,",
+    img: `${activities_card_img_1}`
+  }, {
+    id: 2,
+    name: "Health Care Activities",
+    description: "Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.",
+    img: `${activities_card_img_2}`
+  }, {
+    id: 3,
+    name: "Life Insurance Awareness",
+    description: "In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.",
+    img: `${activities_card_img_3}`
+  }, {
+    id: 4,
+    name: "Eco Conservation Activities",
+    description: "Conducting trainings to Forest Academy for newly recruited staff trainees on PRA & Micro Plan preparations.",
+    img: `${activities_card_img_4}`
+  }, {
+    id: 5,
+    name: "Eco Conservation Activities",
+    description: "Conducting ECO awareness cultural programs on Forest and marine participatory conservation amount forest & marine dependent people in Tamil Nadu with Forest Department",
+    img: `${activities_card_img_5}`
+  }, {
+    id: 6,
+    name: "Eco Conservation Activities",
+    description: "Preparation of Micro Plans for the Community development activities of the Tamil Nadu Forest Department, using Participatory Rural Appraisal techniques.",
+    img: `${activities_card_img_6}`
+  }, {
+    id: 7,
+    name: "Eco Conservation Activities",
+    description: "In coordination with Bosch India Foundation Tirunelveli, under Corporate Social Responsibility (CSR) activites, we are involved in the livelihood enhancement project.",
+    img: `${activities_card_img_7}` 
+  }, {
+    id: 8,
+    name: "Eco Conservation Activities",
+    description: "We also conduct cultural awareness programmes for ‘ATMA’ project, Agricultural Department, Tirunelveli.",
+    img: `${activities_card_img_8}`
+  }, {
+    id: 9,
+    name: "Eco Conservation Activities",
+    description: "Supporting the Forest Department of Tamil Nadu to organize the target communities, into Community based Organizations like Village",
+    img: `${activities_card_img_9}`
   }]
 
   return (
@@ -128,120 +178,37 @@ function Activities() {
                 <p id="activities-section-2-1-3-p-1">Help today because tomorrow you may be the one whoneeds more helping!</p>
              </motion.div>
              <div id="activities-section-2-1-4">
+
+              {
+                activities_data.map((item) => (
                   <motion.div
-  variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-  initial="hidden"
-  whileInView={'show'}
-  viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_1} alt={home_what_we_do_card_img_1} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Women’s Empowerment and Financial Independence</p>
-                    <p id="activities-section-2-1-4-card-p-1">Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
-                  <motion.div
-                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Health Care Activities</p>
-                    <p id="activities-section-2-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
-                  <motion.div
-                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_4} alt={home_what_we_do_card_img_4} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Life Insurance Awareness</p>
-                    <p id="activities-section-2-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
-                  <motion.div
-                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_5} alt={home_what_we_do_card_img_5} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Eco Conservation Activities</p>
-                    <p id="activities-section-2-1-4-card-p-1">Supporting the Forest Department of Tamil Nadu to organize the target communities, into Community based Organizations like Village</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
-                  <motion.div
-                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_8} alt={home_what_we_do_card_img_8} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Health Care Activities</p>
-                    <p id="activities-section-2-1-4-card-p-1">We offer diverse skill development training programs to women in self-help groups, focusing on both technical and soft skills for entrepreneurial success.</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
-                  <motion.div
-                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-                    initial="hidden"
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0.7 }}
-                  id="activities-section-2-1-4-card">
-                    <div id="activities-section-2-1-4-card-content-1">
-                    <img id="activities-section-2-1-4-card-img" src={home_what_we_do_card_img_7} alt={home_what_we_do_card_img_7} />
-                    </div>
-                    <div id="activities-section-2-1-4-card-content-2">
-                    <p id="activities-section-2-1-4-card-p">Life Insurance Awareness</p>
-                    <p id="activities-section-2-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
-                    </div> 
-                    <div id="activities-section-2-1-4-card-content-3">
-                    <div id="activities-section-2-1-4-card-arrow">
-                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
-                    </div>
-                    </div> 
-                  </motion.div>
+                  variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+                  initial="hidden"
+                  whileInView={'show'}
+                  viewport={{ once: false, amount: 0.7 }}
+                                  id="activities-section-2-1-4-card">
+                                    <div id="activities-section-2-1-4-card-content-1">
+                                    <img id="activities-section-2-1-4-card-img" src={item.img} alt={item.img} />
+                                    </div>
+                                    <div id="activities-section-2-1-4-card-content-2">
+                                    <p id="activities-section-2-1-4-card-p">{item.name}</p>
+                                    <p id="activities-section-2-1-4-card-p-1">{item.description}</p>
+                                    </div> 
+                                    <div id="activities-section-2-1-4-card-content-3">
+                                    <div id="activities-section-2-1-4-card-arrow">
+                                    <FaArrowRight id="activities-section-2-1-4-card-arrow-icon"  />
+                                    </div>
+                                    </div> 
+                                  </motion.div>
+                ))
+              }
+                 
+                 
+         
+
+                  
+                 
+              
              </div>
         </div>
       </section>

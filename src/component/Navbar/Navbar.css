@@ -88,3 +88,9 @@
     }
 
 }
+
+@media(max-width: 769px){
+    #d-flex-contact{
+     display: none;
+    }
+}

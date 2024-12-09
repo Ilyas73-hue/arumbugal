@@ -311,7 +311,7 @@ const Dropdata = [{
               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
               initial="hidden"
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.7 } }
              id="home-section-9-div-1-2">
                   <img id="home-section-9-div-1-2-img-1" src={organogram} alt={organogram} />
              </motion.div>
@@ -419,6 +419,22 @@ const Dropdata = [{
               id="home-section-4-1-4-1">
                 <img
                   id="home-section-4-1-4-1-img"
+                  src={home_what_we_do_card_img_7}
+                  alt={home_what_we_do_card_img_7}
+                />
+                <p id="home-section-4-1-4-1-p-1">
+                  Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
+                  activity
+                </p>
+              </motion.div>
+              <motion.div
+               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+               initial="hidden"
+               whileInView={'show'}
+               viewport={{ once: false, amount: 0.7 }}
+              id="home-section-4-1-4-1">
+                <img
+                  id="home-section-4-1-4-1-img"
                   src={home_what_we_do_card_img_5}
                   alt={home_what_we_do_card_img_5}
                 />
@@ -441,22 +457,7 @@ const Dropdata = [{
                   Sugam <span id="home-section-4-1-4-1-p-2">Canteen</span>
                 </p>
               </motion.div>
-              <motion.div
-               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-               initial="hidden"
-               whileInView={'show'}
-               viewport={{ once: false, amount: 0.7 }}
-              id="home-section-4-1-4-1">
-                <img
-                  id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_7}
-                  alt={home_what_we_do_card_img_7}
-                />
-                <p id="home-section-4-1-4-1-p-1">
-                  Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
-                  activity
-                </p>
-              </motion.div>
+     
               <motion.div
                variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
                initial="hidden"
