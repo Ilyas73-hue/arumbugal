@@ -21,6 +21,29 @@
   padding-top: 18vh;
 }
 
+@media(max-width: 1441px){
+  #about {
+    padding-top: 14vh;
+  }
+}
+
+@media(max-width: 1025px){
+  #about {
+    padding-top: 16vh;
+  }
+}
+@media(max-width: 768px){
+  #about {
+    padding-top: 21vh;
+  }
+}
+
+@media(max-width: 426px){
+  #about {
+    padding-top: 16vh;
+  }
+}
+
 /* About Section 1 */
 
 #about-section-1 {
