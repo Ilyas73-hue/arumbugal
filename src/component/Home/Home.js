@@ -259,8 +259,7 @@ const Dropdata = [{
           className="container" id="home-section-3-1">
             <h6 id="home-section-3-1-h6-1">Help Other People</h6>
             <p id="home-section-3-1-p-1">
-              Your contribution empowers us to save lives and enhance well-being
-              through groundbreaking research and education.
+            Inspire Change: Through advocacy and awareness campaigns, we inspire others to join our mission of building a better tomorrow.
             </p>
             <button id="home-section-3-1-button">Donate</button>
           </motion.div>
