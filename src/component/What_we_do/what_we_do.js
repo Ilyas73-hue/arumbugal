@@ -71,7 +71,7 @@ function What_we_do() {
                viewport={{ once: false, amount: 0.7 }}
             id="what_we_do_section-2-1-3">
               <p id="what_we_do_section-2-1-3-p-1">
-                Help today because tomorrow you may be the one whoneeds more
+                Help today because tomorrow you may be the one who needs more
                 helping!
               </p>
             </motion.div>
@@ -105,7 +105,7 @@ function What_we_do() {
                 />
                 <p id="what_we_do_section-2-1-4-1-p-1">
                   Health <span id="what_we_do_section-2-1-4-1-p-2">care</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
               <motion.div
@@ -151,7 +151,7 @@ function What_we_do() {
                 />
                 <p id="what_we_do_section-2-1-4-1-p-1">
                   Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
               <motion.div
@@ -198,7 +198,7 @@ function What_we_do() {
                 />
                 <p id="what_we_do_section-2-1-4-1-p-1">
                   Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
             </div>

@@ -378,7 +378,7 @@ const Dropdata = [{
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Health <span id="home-section-4-1-4-1-p-2">care</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
               <motion.div
@@ -424,7 +424,7 @@ const Dropdata = [{
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
               <motion.div
@@ -471,7 +471,7 @@ const Dropdata = [{
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
-                  activity
+                  Program
                 </p>
               </motion.div>
             </div>
@@ -599,7 +599,7 @@ const Dropdata = [{
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
              id="home-section-7-1-3">
-                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one whoneeds more helping!</p>
+                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one who needs more helping!</p>
              </motion.div>
              <div id="home-section-7-1-4">
                   <motion.div

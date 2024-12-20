@@ -1,5 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import "./gallery.css";
+import img_29 from "../../arumbugal_assets/gallery/gallery_img_29.jpeg";
+import img_30 from "../../arumbugal_assets/gallery/gallery_img_30.jpeg";
+import img_31 from "../../arumbugal_assets/gallery/gallery_img_31.jpeg";
+import img_32 from "../../arumbugal_assets/gallery/gallery_img_32.jpeg";
+import img_33 from "../../arumbugal_assets/gallery/gallery_img_33.jpeg";
+import img_34 from "../../arumbugal_assets/gallery/gallery_img_34.jpeg";
 import img_1 from "../../arumbugal_assets/gallery/gallery_img_1.png";
 import img_2 from "../../arumbugal_assets/gallery/gallery_img_2.png";
 import img_3 from "../../arumbugal_assets/gallery/gallery_img_3.png";
@@ -46,7 +52,29 @@ function Gallery() {
   }, []);
 
 
-  const gallery_data = [{
+  const gallery_data = [
+    {
+      id: 29, 
+      img: `${img_29}`
+     }, {
+       id: 30, 
+      img: `${img_30}`
+     }, {
+       id: 31, 
+      img: `${img_31}`
+     }, {
+       id: 32, 
+      img: `${img_32}`
+     },
+     {
+      id: 33, 
+     img: `${img_33}`
+    },
+    {
+      id: 34, 
+     img: `${img_34}`
+    },
+    {
    id: 1, 
    img: `${img_1}`
   }, {
