@@ -343,7 +343,7 @@ const Dropdata = [{
              viewport={{ once: false, amount: 0.7 }}
             id="home-section-4-1-3">
               <p id="home-section-4-1-3-p-1">
-                Help today because tomorrow you may be the one whoneeds more
+                Help today because tomorrow you may be the one who needs more
                 helping!
               </p>
             </motion.div>
