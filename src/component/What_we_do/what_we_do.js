@@ -218,7 +218,7 @@ function What_we_do() {
           className="container" id="what_we_do_section-3-1">
             <h6 id="what_we_do_section-3-1-h6-1">Help Other People</h6>
             <p id="what_we_do_section-3-1-p-1">
-            Inspire Change: Through advocacy and awareness campaigns, we inspire others to join our mission of building a better tomorrow.
+            We don't do ground breaking research and education.
             </p>
             <button id="what_we_do_section-3-1-button">Donate</button>
           </motion.div>
