@@ -343,8 +343,7 @@ const Dropdata = [{
              viewport={{ once: false, amount: 0.7 }}
             id="home-section-4-1-3">
               <p id="home-section-4-1-3-p-1">
-                Help today because tomorrow you may be the one who needs more
-                helping!
+              At Arumbugal Trust, we empower women through skill-building, promote eco-conservation for a sustainable future, provide healthcare access to underserved communities, and ensure education for all. Together, we create opportunities, nurture lives, and build a brighter tomorrow.
               </p>
             </motion.div>
 
@@ -598,7 +597,7 @@ const Dropdata = [{
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
              id="home-section-7-1-3">
-                <p id="home-section-7-1-3-p-1">Help today because tomorrow you may be the one who needs more helping!</p>
+                <p id="home-section-7-1-3-p-1">Arumbugal Trust conducts skill development workshops, healthcare camps, educational support programs, and environmental conservation drives. We also organize community awareness sessions, youth empowerment activities.</p>
              </motion.div>
              <div id="home-section-7-1-4">
                   <motion.div

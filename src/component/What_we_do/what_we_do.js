@@ -71,8 +71,7 @@ function What_we_do() {
                viewport={{ once: false, amount: 0.7 }}
             id="what_we_do_section-2-1-3">
               <p id="what_we_do_section-2-1-3-p-1">
-                Help today because tomorrow you may be the one who needs more
-                helping!
+              At Arumbugal Trust, we empower women through skill-building, promote eco-conservation for a sustainable future, provide healthcare access to underserved communities, and ensure education for all. Together, we create opportunities, nurture lives, and build a brighter tomorrow.
               </p>
             </motion.div>
 

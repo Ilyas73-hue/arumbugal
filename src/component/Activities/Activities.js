@@ -175,7 +175,7 @@ function Activities() {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
              id="activities-section-2-1-3">
-                <p id="activities-section-2-1-3-p-1">Help today because tomorrow you may be the one whoneeds more helping!</p>
+                <p id="activities-section-2-1-3-p-1">Arumbugal Trust conducts skill development workshops, healthcare camps, educational support programs, and environmental conservation drives. We also organize community awareness sessions, youth empowerment activities.</p>
              </motion.div>
              <div id="activities-section-2-1-4">
 
