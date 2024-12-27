@@ -51,6 +51,7 @@
     line-height: 25.1px;
     text-align: center;
     color: var(--color);
+    
   }
   
   #what_we_do_section-1-div-1-P-1-span {
@@ -95,6 +96,7 @@ font-weight: 400;
 line-height: 28px;
 text-align: center;
 width: 100%;
+padding: 5px;
   }
 
 
@@ -247,7 +249,7 @@ left: 5px;
   #what_we_do_section-4-1-1{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -295,7 +297,7 @@ text-align: justify;
     margin-top: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
    }
 

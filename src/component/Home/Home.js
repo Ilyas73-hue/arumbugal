@@ -122,7 +122,7 @@ const Dropdata = [{
                   <h6 id="carousel-content-1-h6-1">
                   In every bloom, a story of progress
                   </h6>
-                  <button id="carousel-button">Donate</button>
+                  <button id="carousel-button">Read More</button>
                 </motion.div>
               </div>
             </div>
@@ -250,7 +250,9 @@ const Dropdata = [{
         
         {/* Section 3 */}
 
-        <section id="home-section-3">
+
+
+        {/* <section id="home-section-3">
           <motion.div
            variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
            initial="hidden"
@@ -263,11 +265,59 @@ const Dropdata = [{
             </p>
             <button id="home-section-3-1-button">Donate</button>
           </motion.div>
+        </section>  */}
+
+<section id="home-section-5">
+          <div className="container" id="home-section-5-1">
+              <div id="home-section-5-1">
+              <div id="home-section-5-1-1">
+                <motion.div
+                 variants={matches ? fadeSmallIn("right") :fadeBigIn("right")}
+                 initial="hidden"
+                 whileInView={'show'}
+                 viewport={{ once: false, amount: 0.7 }}
+                id="home-section-5-1-1-1">
+                    <h6 id="home-section-5-1-1-1-h6-1">Our vision</h6>
+                    <p id="home-section-5-1-1-1-p-1">To create an inclusive and empowered society rooted in social justice and sustainable environmental practices, achieved through a profound commitment to nature.</p>
+                    <button id="home-section-5-1-1-1-button">Read More</button>
+                </motion.div>
+                <motion.div
+                 variants={matches ? fadeSmallIn("left") :fadeBigIn("left")}
+                 initial="hidden"
+                 whileInView={'show'}
+                 viewport={{ once: false, amount: 0.7 }}
+                id="home-section-5-1-1-2">
+                  <img id="home-section-5-1-1-2-img" src={home_section_5_img_1} alt={home_section_5_img_1} />
+                </motion.div>
+              </div>
+
+              <div id="home-section-5-1-2">
+              <motion.div
+               variants={matches ? fadeSmallIn("right") :fadeBigIn("right")}
+               initial="hidden"
+               whileInView={'show'}
+               viewport={{ once: false, amount: 0.7 }}
+              id="home-section-5-1-2-2">
+                  <img id="home-section-5-1-2-2-img" src={home_section_5_img_2} alt={home_section_5_img_2} />
+                </motion.div>
+                <motion.div
+                 variants={matches ? fadeSmallIn("left") :fadeBigIn("left")}
+                 initial="hidden"
+                 whileInView={'show'}
+                 viewport={{ once: false, amount: 0.7 }}
+                id="home-section-5-1-2-1">
+                    <h6 id="home-section-5-1-2-1-h6-1">Our Mission</h6>
+                    <p id="home-section-5-1-2-1-p-1">To mobilize and organize marginalized communities by generating awareness, capacity building and facilitating access to resources.</p>
+                    <button id="home-section-5-1-2-1-button">Read More</button>
+                </motion.div>
+              </div>
+              </div>
+          </div>
         </section>
 
            {/* Section 8 */}
 
-        <section id="home-section-8">
+         <section id="home-section-8">
            <div className='container' id="home-section-8-div-1">
              <motion.div
               variants={matches ? fadeSmallIn("down") :fadeBigIn("down")}
@@ -360,7 +410,7 @@ const Dropdata = [{
                   alt={home_what_we_do_card_img_1}
                 />
                 <p id="home-section-4-1-4-1-p-1">
-                  Women <span id="home-section-4-1-4-1-p-2">empowerment</span>
+                  Women <span id="home-section-4-1-4-1-p-2">empowerment 1</span>
                 </p>
               </motion.div>
               <motion.div
@@ -371,12 +421,11 @@ const Dropdata = [{
               id="home-section-4-1-4-1">
                 <img
                   id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_2}
-                  alt={home_what_we_do_card_img_2}
+                  src={home_what_we_do_card_img_4}
+                  alt={home_what_we_do_card_img_4}
                 />
                 <p id="home-section-4-1-4-1-p-1">
-                  Health <span id="home-section-4-1-4-1-p-2">care</span>{" "}
-                  Program
+                  Women <span id="home-section-4-1-4-1-p-2">empowerment 2</span>
                 </p>
               </motion.div>
               <motion.div
@@ -394,21 +443,9 @@ const Dropdata = [{
                   Skill <span id="home-section-4-1-4-1-p-2">development</span>
                 </p>
               </motion.div>
-              <motion.div
-               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-               initial="hidden"
-               whileInView={'show'}
-               viewport={{ once: false, amount: 0.7 }}
-              id="home-section-4-1-4-1">
-                <img
-                  id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_4}
-                  alt={home_what_we_do_card_img_4}
-                />
-                <p id="home-section-4-1-4-1-p-1">
-                  Women <span id="home-section-4-1-4-1-p-2">empowerment</span>
-                </p>
-              </motion.div>
+              
+             
+            
               <motion.div
                variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
                initial="hidden"
@@ -422,9 +459,28 @@ const Dropdata = [{
                 />
                 <p id="home-section-4-1-4-1-p-1">
                   Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
-                  Program
+                  Program 1
                 </p>
               </motion.div>
+
+
+              <motion.div
+               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+               initial="hidden"
+               whileInView={'show'}
+               viewport={{ once: false, amount: 0.7 }}
+              id="home-section-4-1-4-1">
+                <img
+                  id="home-section-4-1-4-1-img"
+                  src={home_what_we_do_card_img_8}
+                  alt={home_what_we_do_card_img_8}
+                />
+                <p id="home-section-4-1-4-1-p-1">
+                  Eco <span id="home-section-4-1-4-1-p-2">conservation </span>{" "}
+                  Program 2
+                </p>
+              </motion.div>
+
               <motion.div
                variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
                initial="hidden"
@@ -437,9 +493,27 @@ const Dropdata = [{
                   alt={home_what_we_do_card_img_5}
                 />
                 <p id="home-section-4-1-4-1-p-1">
-                  Eastern <span id="home-section-4-1-4-1-p-2">Ghats</span>
+                  PRA <span id="home-section-4-1-4-1-p-2">Techniques</span>
                 </p>
               </motion.div>
+
+              <motion.div
+               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+               initial="hidden"
+               whileInView={'show'}
+               viewport={{ once: false, amount: 0.7 }}
+              id="home-section-4-1-4-1">
+                <img
+                  id="home-section-4-1-4-1-img"
+                  src={home_what_we_do_card_img_2}
+                  alt={home_what_we_do_card_img_2}
+                />
+                <p id="home-section-4-1-4-1-p-1">
+                  Health <span id="home-section-4-1-4-1-p-2">care</span>{" "}
+                  Program
+                </p>
+              </motion.div>
+
               <motion.div
                variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
                initial="hidden"
@@ -456,75 +530,13 @@ const Dropdata = [{
                 </p>
               </motion.div>
      
-              <motion.div
-               variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-               initial="hidden"
-               whileInView={'show'}
-               viewport={{ once: false, amount: 0.7 }}
-              id="home-section-4-1-4-1">
-                <img
-                  id="home-section-4-1-4-1-img"
-                  src={home_what_we_do_card_img_8}
-                  alt={home_what_we_do_card_img_8}
-                />
-                <p id="home-section-4-1-4-1-p-1">
-                  Eco <span id="home-section-4-1-4-1-p-2">conservation</span>{" "}
-                  Program
-                </p>
-              </motion.div>
             </div>
           </div>
         </section>
 
         {/* home Section 5 */}
 
-        <section id="home-section-5">
-          <div className="container" id="home-section-5-1">
-              <div id="home-section-5-1">
-              <div id="home-section-5-1-1">
-                <motion.div
-                 variants={matches ? fadeSmallIn("right") :fadeBigIn("right")}
-                 initial="hidden"
-                 whileInView={'show'}
-                 viewport={{ once: false, amount: 0.7 }}
-                id="home-section-5-1-1-1">
-                    <h6 id="home-section-5-1-1-1-h6-1">Our vision</h6>
-                    <p id="home-section-5-1-1-1-p-1">To create an inclusive and empowered society rooted in social justice and sustainable environmental practices, achieved through a profound commitment to nature.</p>
-                    <button id="home-section-5-1-1-1-button">Read More</button>
-                </motion.div>
-                <motion.div
-                 variants={matches ? fadeSmallIn("left") :fadeBigIn("left")}
-                 initial="hidden"
-                 whileInView={'show'}
-                 viewport={{ once: false, amount: 0.7 }}
-                id="home-section-5-1-1-2">
-                  <img id="home-section-5-1-1-2-img" src={home_section_5_img_1} alt={home_section_5_img_1} />
-                </motion.div>
-              </div>
-
-              <div id="home-section-5-1-2">
-              <motion.div
-               variants={matches ? fadeSmallIn("right") :fadeBigIn("right")}
-               initial="hidden"
-               whileInView={'show'}
-               viewport={{ once: false, amount: 0.7 }}
-              id="home-section-5-1-2-2">
-                  <img id="home-section-5-1-2-2-img" src={home_section_5_img_2} alt={home_section_5_img_2} />
-                </motion.div>
-                <motion.div
-                 variants={matches ? fadeSmallIn("left") :fadeBigIn("left")}
-                 initial="hidden"
-                 whileInView={'show'}
-                 viewport={{ once: false, amount: 0.7 }}
-                id="home-section-5-1-2-1">
-                    <h6 id="home-section-5-1-2-1-h6-1">Our Mission</h6>
-                    <p id="home-section-5-1-2-1-p-1">To mobilize and organize marginalized communities by generating awareness, capacity building and facilitating access to resources.</p>
-                    <button id="home-section-5-1-2-1-button">Read More</button>
-                </motion.div>
-              </div>
-              </div>
-          </div>
-        </section>
+       
 
       {/* Home Section 6 */}
 
@@ -657,6 +669,9 @@ const Dropdata = [{
                     </div>
                     </div> 
                   </motion.div>
+             </div>
+             <div id="home-section-7-1-5">
+                <button onClick={() => window.location.href=`/activities`} id="home-section-7-1-5-read-more">Read More</button>
              </div>
         </div>
       </section>

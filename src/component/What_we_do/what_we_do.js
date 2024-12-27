@@ -88,7 +88,87 @@ function What_we_do() {
                   alt={home_what_we_do_card_img_1}
                 />
                 <p id="what_we_do_section-2-1-4-1-p-1">
-                  Women <span id="what_we_do_section-2-1-4-1-p-2">empowerment</span>
+                  Women <span id="what_we_do_section-2-1-4-1-p-2">empowerment 1</span>
+                </p>
+              </motion.div>
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_4}
+                  alt={home_what_we_do_card_img_4}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                  Women <span id="what_we_do_section-2-1-4-1-p-2">empowerment 2</span>
+                </p>
+              </motion.div>
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_3}
+                  alt={home_what_we_do_card_img_3}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                  Skill <span id="what_we_do_section-2-1-4-1-p-2">development</span>
+                </p>
+              </motion.div>
+         
+              
+           
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_7}
+                  alt={home_what_we_do_card_img_7}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
+                  Program 1
+                </p>
+              </motion.div>
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_8}
+                  alt={home_what_we_do_card_img_8}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
+                  Program 2
+                </p>
+              </motion.div>
+              <motion.div
+              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
+              initial="hidden"
+              whileInView={'show'}
+              viewport={{ once: false, amount: 0.7 }}
+              id="what_we_do_section-2-1-4-1">
+                <img
+                  id="what_we_do_section-2-1-4-1-img"
+                  src={home_what_we_do_card_img_5}
+                  alt={home_what_we_do_card_img_5}
+                />
+                <p id="what_we_do_section-2-1-4-1-p-1">
+                PRA <span id="what_we_do_section-2-1-4-1-p-2">Techniques</span>
                 </p>
               </motion.div>
               <motion.div
@@ -115,67 +195,6 @@ function What_we_do() {
               id="what_we_do_section-2-1-4-1">
                 <img
                   id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_3}
-                  alt={home_what_we_do_card_img_3}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Skill <span id="what_we_do_section-2-1-4-1-p-2">development</span>
-                </p>
-              </motion.div>
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_4}
-                  alt={home_what_we_do_card_img_4}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Women <span id="what_we_do_section-2-1-4-1-p-2">empowerment</span>
-                </p>
-              </motion.div>
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_7}
-                  alt={home_what_we_do_card_img_7}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
-                  Program
-                </p>
-              </motion.div>
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_5}
-                  alt={home_what_we_do_card_img_5}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Eastern <span id="what_we_do_section-2-1-4-1-p-2">Ghats</span>
-                </p>
-              </motion.div>
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
                   src={home_what_we_do_card_img_6}
                   alt={home_what_we_do_card_img_6}
                 />
@@ -184,31 +203,15 @@ function What_we_do() {
                 </p>
               </motion.div>
   
-              <motion.div
-              variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
-              initial="hidden"
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              id="what_we_do_section-2-1-4-1">
-                <img
-                  id="what_we_do_section-2-1-4-1-img"
-                  src={home_what_we_do_card_img_8}
-                  alt={home_what_we_do_card_img_8}
-                />
-                <p id="what_we_do_section-2-1-4-1-p-1">
-                  Eco <span id="what_we_do_section-2-1-4-1-p-2">conservation</span>{" "}
-                  Program
-                </p>
-              </motion.div>
+             
             </div>
           </div>
         </section>
 
         
+ {/* Section 3 */}
 
-        {/* Section 3 */}
-
-        <section id="what_we_do_section-3">
+ {/* <section id="what_we_do_section-3">
           <motion.div
           variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
           initial="hidden"
@@ -221,7 +224,8 @@ function What_we_do() {
             </p>
             <button id="what_we_do_section-3-1-button">Donate</button>
           </motion.div>
-        </section>
+        </section> */}
+       
 
         {/* Section 4 */}
       
