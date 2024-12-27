@@ -62,9 +62,6 @@ function Gallery() {
      }, {
        id: 31, 
       img: `${img_31}`
-     }, {
-       id: 32, 
-      img: `${img_32}`
      },
      {
       id: 33, 
@@ -129,14 +126,8 @@ function Gallery() {
     id: 18, 
    img: `${img_18}`
   }, {
-    id: 19, 
-   img: `${img_19}`
-  }, {
     id: 20, 
    img: `${img_20}`
-  },{
-    id: 21, 
-   img: `${img_21}`
   }, {
     id: 22, 
    img: `${img_22}`
@@ -148,15 +139,6 @@ function Gallery() {
    img: `${img_24}`
   }, {
     id: 25, 
-   img: `${img_25}`
-  },{
-    id: 26, 
-   img: `${img_26}`
-  }, {
-    id: 27, 
-   img: `${img_27}`
-  }, {
-    id: 28, 
    img: `${img_28}`
   }] 
 
