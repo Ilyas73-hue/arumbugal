@@ -98,13 +98,7 @@ function Footer() {
                     </span>
                   </a>
                 </li>
-                <li id="footer-section-3-div-2-li">
-                  <a id="footer-section-3-div-2-li-a" href="">
-                    Health{" "}
-                    <span id="footer-section-3-div-2-li-a-span">care</span>{" "}
-                    activity
-                  </a>
-                </li>
+              
                 <li id="footer-section-3-div-2-li">
                   <a id="footer-section-3-div-2-li-a" href="">
                     Skill{" "}
@@ -113,12 +107,7 @@ function Footer() {
                     </span>
                   </a>
                 </li>
-                <li id="footer-section-3-div-2-li">
-                  <a id="footer-section-3-div-2-li-a" href="">
-                    Sugam{" "}
-                    <span id="footer-section-3-div-2-li-a-span">Canteen</span>
-                  </a>
-                </li>
+                
                 <li id="footer-section-3-div-2-li">
                   <a id="footer-section-3-div-2-li-a" href="">
                     Eco{" "}
@@ -133,6 +122,19 @@ function Footer() {
                     Life{" "}
                     <span id="footer-section-3-div-2-li-a-span">Insurance</span>{" "}
                     Awareness
+                  </a>
+                </li>
+                <li id="footer-section-3-div-2-li">
+                  <a id="footer-section-3-div-2-li-a" href="">
+                    Health{" "}
+                    <span id="footer-section-3-div-2-li-a-span">care</span>{" "}
+                    activity
+                  </a>
+                </li>
+                <li id="footer-section-3-div-2-li">
+                  <a id="footer-section-3-div-2-li-a" href="">
+                    Sugam{" "}
+                    <span id="footer-section-3-div-2-li-a-span">Canteen</span>
                   </a>
                 </li>
               </ul>
@@ -150,9 +152,11 @@ function Footer() {
                 </div>
                 <div id="footer-section-4-div-2-1-2">
                   <p id="footer-section-4-div-2-1-2-p-1">
-                    Arumbugal Trust  9/410, Aachimadam,  Thiruchendur Main
+                  Arumbugal Trust 9/410, Aachimadam,    
+                     Thiruchendur Main
                     Road,  Palayamkottai, Tirunelveli, 627011.
                   </p>
+                  {/* Arumbugal Trust */}
                 </div>
               </div>
               <div id="footer-section-4-div-2-2">

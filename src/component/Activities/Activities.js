@@ -87,47 +87,51 @@ function Activities() {
     name: "Women’s Empowerment and Financial Independence",
     description: "Arumbugal collaborates with over 500 women’s self-help groups and 50 joint liability groups,",
     img: `${activities_card_img_1}`
-  }, {
+  },{
     id: 2,
-    name: "Health Care Activities",
-    description: "Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.",
-    img: `${activities_card_img_2}`
-  }, {
-    id: 3,
     name: "Life Insurance Awareness",
     description: "In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.",
     img: `${activities_card_img_3}`
   }, {
-    id: 4,
+    id: 3,
     name: "Eco Conservation Activities",
     description: "Conducting trainings to Forest Academy for newly recruited staff trainees on PRA & Micro Plan preparations.",
     img: `${activities_card_img_4}`
   }, {
-    id: 5,
+    id: 4,
     name: "Eco Conservation Activities",
     description: "Conducting ECO awareness cultural programs on Forest and marine participatory conservation amount forest & marine dependent people in Tamil Nadu with Forest Department",
     img: `${activities_card_img_5}`
   }, {
-    id: 6,
+    id: 5,
     name: "Eco Conservation Activities",
     description: "Preparation of Micro Plans for the Community development activities of the Tamil Nadu Forest Department, using Participatory Rural Appraisal techniques.",
     img: `${activities_card_img_6}`
   }, {
-    id: 7,
+    id: 6,
     name: "Eco Conservation Activities",
     description: "In coordination with Bosch India Foundation Tirunelveli, under Corporate Social Responsibility (CSR) activites, we are involved in the livelihood enhancement project.",
     img: `${activities_card_img_7}` 
   }, {
-    id: 8,
+    id: 7,
     name: "Eco Conservation Activities",
     description: "We also conduct cultural awareness programmes for ‘ATMA’ project, Agricultural Department, Tirunelveli.",
     img: `${activities_card_img_8}`
-  }, {
-    id: 9,
+  }, 
+
+  {
+    id: 8,
     name: "Eco Conservation Activities",
     description: "Supporting the Forest Department of Tamil Nadu to organize the target communities, into Community based Organizations like Village",
     img: `${activities_card_img_9}`
-  }]
+  },
+  {
+    id: 9,
+    name: "Health Care Activities",
+    description: "Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.",
+    img: `${activities_card_img_2}`
+  },
+ ]
 
   return (
     <div id="activities">

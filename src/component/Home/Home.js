@@ -122,7 +122,7 @@ const Dropdata = [{
                   <h6 id="carousel-content-1-h6-1">
                   In every bloom, a story of progress
                   </h6>
-                  <button id="carousel-button">Read More</button>
+                  <button id="carousel-button" onClick={() => window.location.href=`/about`}>Read More</button>
                 </motion.div>
               </div>
             </div>
@@ -279,7 +279,7 @@ const Dropdata = [{
                 id="home-section-5-1-1-1">
                     <h6 id="home-section-5-1-1-1-h6-1">Our vision</h6>
                     <p id="home-section-5-1-1-1-p-1">To create an inclusive and empowered society rooted in social justice and sustainable environmental practices, achieved through a profound commitment to nature.</p>
-                    <button id="home-section-5-1-1-1-button">Read More</button>
+                    
                 </motion.div>
                 <motion.div
                  variants={matches ? fadeSmallIn("left") :fadeBigIn("left")}
@@ -308,7 +308,7 @@ const Dropdata = [{
                 id="home-section-5-1-2-1">
                     <h6 id="home-section-5-1-2-1-h6-1">Our Mission</h6>
                     <p id="home-section-5-1-2-1-p-1">To mobilize and organize marginalized communities by generating awareness, capacity building and facilitating access to resources.</p>
-                    <button id="home-section-5-1-2-1-button">Read More</button>
+                    
                 </motion.div>
               </div>
               </div>

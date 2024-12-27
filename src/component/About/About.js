@@ -191,8 +191,7 @@ function About() {
 className="container" id="about-section-3-1">
   <h6 id="about-section-3-1-h6-1">Help Other People</h6>
   <p id="about-section-3-1-p-1">
-    Your contribution empowers us to save lives and enhance well-being
-    through groundbreaking research and education.
+  We don't do ground breaking research and education.
   </p>
   <button id="about-section-3-1-button">Donate</button>
 </motion.div>
