@@ -4,6 +4,7 @@ import footer_logo from "../../arumbugal_assets/footer/footer_logo.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -41,7 +42,7 @@ function Footer() {
                 <FaFacebookF id="footer-section-1-div-3-facebook-logo" />
               </div>
               <div id="footer-section-1-div-3-twitter-bg">
-                <FaTwitter id="footer-section-1-div-3-twitter-logo" />
+                <FaXTwitter id="footer-section-1-div-3-twitter-logo" />
               </div>
               <div id="footer-section-1-div-3-linkedin-bg">
                 <FaLinkedinIn id="footer-section-1-div-3-linkedin-logo" />
@@ -152,7 +153,7 @@ function Footer() {
                 </div>
                 <div id="footer-section-4-div-2-1-2">
                   <p id="footer-section-4-div-2-1-2-p-1">
-                  Arumbugal Trust 9/410, Aachimadam,    
+                  Arumbugal           Trust <br/>9/410, Aachimadam,    
                      Thiruchendur Main
                     Road,  Palayamkottai, Tirunelveli, 627011.
                   </p>
@@ -165,7 +166,7 @@ function Footer() {
                  </div>
                  <div id="footer-section-4-div-2-2-2">
                  <p id="footer-section-4-div-2-2-2-p-1">
-                 98947 58517, 77087 93189 
+                 98947 58517<br /> 77087 93189 
                   </p>
                  </div>
               </div>

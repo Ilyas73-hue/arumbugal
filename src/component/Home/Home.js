@@ -120,7 +120,7 @@ const Dropdata = [{
                 viewport={{ once: false, amount: 0.7 }}
                 id="carousel-content-1">
                   <h6 id="carousel-content-1-h6-1">
-                  In every bloom, a story of progress
+                  In Every Bloom, A Story of Progress
                   </h6>
                   <button id="carousel-button" onClick={() => window.location.href=`/about`}>Read More</button>
                 </motion.div>
@@ -631,6 +631,7 @@ const Dropdata = [{
                     </div>
                     </div> 
                   </motion.div>
+                  
                   <motion.div
                    variants={matches ? fadeSmallIn("up") :fadeBigIn("up")}
                    initial="hidden"
@@ -638,11 +639,11 @@ const Dropdata = [{
                    viewport={{ once: false, amount: 0.7 }}
                   id="home-section-7-1-4-card">
                     <div id="home-section-7-1-4-card-content-1">
-                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_2} alt={home_what_we_do_card_img_2} />
+                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
                     </div>
                     <div id="home-section-7-1-4-card-content-2">
-                    <p id="home-section-7-1-4-card-p">Health Care Activities</p>
-                    <p id="home-section-7-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
+                    <p id="home-section-7-1-4-card-p">Life Insurance Awareness</p>
+                    <p id="home-section-7-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
                     </div> 
                     <div id="home-section-7-1-4-card-content-3">
                     <div id="home-section-7-1-4-card-arrow">
@@ -657,11 +658,11 @@ const Dropdata = [{
                    viewport={{ once: false, amount: 0.7 }}
                   id="home-section-7-1-4-card">
                     <div id="home-section-7-1-4-card-content-1">
-                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_3} alt={home_what_we_do_card_img_3} />
+                    <img id="home-section-7-1-4-card-img" src={home_what_we_do_card_img_2} alt={home_what_we_do_card_img_2} />
                     </div>
                     <div id="home-section-7-1-4-card-content-2">
-                    <p id="home-section-7-1-4-card-p">Life Insurance Awareness</p>
-                    <p id="home-section-7-1-4-card-p-1">In partnership with the Life Insurance Corporation of India, we empower women to appreciate the importance of life insurance with policies tailored to their needs.</p>
+                    <p id="home-section-7-1-4-card-p">Health Care Activities</p>
+                    <p id="home-section-7-1-4-card-p-1">Conducting awareness programmes about reproductive Health, HIV/AIDS Care & Support, Tubersulosis, Cancer, Menstrual hygiene and Occupational hazards of beedi rolling.</p>
                     </div> 
                     <div id="home-section-7-1-4-card-content-3">
                     <div id="home-section-7-1-4-card-arrow">
