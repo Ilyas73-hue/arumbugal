@@ -90,8 +90,9 @@ function Contact() {
 </div>
 <div id="contact-section-2-div-2-2-1-2">
   <p id="contact-section-2-div-2-2-1-2-p-1">
-    Arumbugal Trust  9/410, Archimadam,  Thiruchendur Main
-    Road,  Palayamkotai, Tirunelveli, 627011.
+  Arumbugal           Trust <br/>9/410, Aachimadam,    
+                     Thiruchendur Main
+                    Road,  Palayamkottai, Tirunelveli, 627011.
   </p>
 </div>
 </div>
@@ -102,7 +103,7 @@ function Contact() {
 </div>
 <div id="contact-section-2-div-2-2-2-2">
 <p id="contact-section-2-div-2-2-2-2-p-1">
-98947 58517, 77087 93189 
+98947 58517<br /> 77087 93189 
  </p>
 </div>
 </div>
